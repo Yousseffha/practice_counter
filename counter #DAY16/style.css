@@ -1,0 +1,47 @@
+/* start global rules */
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FEA600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    color: white;
+    text-align: center;
+}
+/* end global rules */
+.container h1 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.container .counter {
+    font-size: 25px;
+    letter-spacing: -2px;
+}
+.container .counter span {
+    display: inline-block;
+    width: 15px;
+}
+.container .control button {
+    padding: 10px 25px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 25px 15px ;
+    transition: 0.3s;
+}
+.container .control button:hover {
+    background-color: #ffb428ad;
+}
